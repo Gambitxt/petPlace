@@ -1,3 +1,7 @@
+<?php
+define('DB_HOST'        , "PC-JOAO\SQLEXPRESS");
+define('DB_NAME'        , "aula_sql");
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,6 +12,10 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+	<?php
+	include "Conexao.php"
+	?>
+	
     
     <div class="limiter">
         <div class="container-login100">
@@ -64,7 +72,7 @@
 
                     <div class="text-center padding-50">
                         <a class="txt2" href="#">
-                            Nova conta                            
+                            Nova Conta                            
                         </a>
                     </div>
                 </form>
