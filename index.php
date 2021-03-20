@@ -32,7 +32,7 @@
                 ?>
                 <form method="post" class="login100-form validate-form">
                     <span class="login100-form-title">
-                        Conectar ao seu amor aninal
+                        Conectar ao seu amor animal
                     </span>
 
                     <div class="wrap-input100 validate-input" data-validate = "Insira um Email válido: teste@testes.com">
