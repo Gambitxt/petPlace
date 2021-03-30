@@ -1,3 +1,7 @@
+<?php
+define('DB_HOST'        , "PC-JOAO\SQLEXPRESS");
+define('DB_NAME'        , "aula_sql");
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,6 +17,10 @@
     </script>
 </head>
 <body>
+	<?php
+	include "Conexao.php"
+	?>
+	
     
     <div class="limiter">
         <div class="container-login100">
@@ -40,7 +48,7 @@
                 ?>
                 <form method="post" class="login100-form validate-form">
                     <span class="login100-form-title">
-                        Conectar ao seu amor aninal
+                        Conectar ao seu amor animal
                     </span>
 
                     <div class="wrap-input100 validate-input" data-validate = "Insira um Email válido: teste@testes.com">
@@ -72,7 +80,7 @@
 
                     <div class="text-center padding-50">
                         <a class="txt2" href="#">
-                            Nova conta                            
+                            Nova Conta                            
                         </a>
                     </div>
                 </form>
